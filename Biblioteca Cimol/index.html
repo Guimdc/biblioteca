@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guilherme Machado Dal Castel">
+
+    <title>Biblioteca do Cimol</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Icons
+        <ion-icon name="search-outline"></ion-icon>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <ion-icon name="create-outline"></ion-icon>
+        <ion-icon name="return-down-back-outline"></ion-icon>
+        <ion-icon name="menu-outline"></ion-icon> 
+        <ion-icon size="large" name="person"></ion-icon>
+        -->
+    <header>
+        <ion-icon name="menu-outline"></ion-icon> 
+        <ion-icon name="person"></ion-icon>
+    </header>
+    <main>
+        <section id="search">
+            <div>
+                <h1>Faça sua pesquisa pelo seu livro desejado</h1>
+            </div>
+            <form id="search-bar">
+                <button>
+                    <ion-icon id="search-icon" name="search-outline"></ion-icon>
+                </button>
+                <input id="search-input" type="text" name="search" placeholder="Buscar uma obra...">
+            </form>
+        </section>
+
+        <section id="home">
+            <div id="home-buttons">
+                <button class="button-option enable">Fantasia</button>
+                <button class="button-option disable">Ação</button>
+                <button class="button-option disable">SciFi</button>
+                <button class="button-option disable">Terror</button>
+                <button class="button-option disable">Romance</button>
+                <button class="button-option disable">Clássico</button>
+                <button class="button-option disable">Terror</button>
+                <button class="button-option disable">Poema</button>
+                <button class="button-option disable">Conto</button>
+                <button class="button-option disable">Comédia</button>
+                <button class="button-option disable">Fábula</button>
+                <button class="button-option disable">Crônica</button>
+            </div>
+            
+            <div id="preset-book">
+
+                <a href="/pages/obra/index.html">
+                    <div class="book-card" href="/pages/obra/index.html">
+                        <div class="book-status">
+                            <div class="status">
+                                <div class="green"></div>
+                                <p>Disponível</p>
+                            </div>
+                        </div>
+                        <img src="./images/books/harry-potter-pedra.jpg">
+                        <div class="book-info">
+                            <p class="book-name">Harry Potter e a Pedra Filosofal</p>
+                            <p class="book-author">J.K. Rowling</p>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="book-card">
+                    <div class="book-status">
+                        <div class="status">
+                            <div class="red"></div>
+                            <p>Indisponível</p>
+                        </div>
+                    </div>
+                    <img src="./images/books/hobbit.jpg">
+                    <div class="book-info">
+                        <p class="book-name">O Hobbit</p>
+                        <p class="book-author">J.R.R. Tolkien</p>
+                    </div>
+                </div>
+                
+                <div class="book-card">
+                    <div class="book-status">
+                        <div class="status">
+                            <div class="green"></div>
+                            <p>Disponível</p>
+                        </div>
+                    </div>
+                    <img src="./images/books/starwars.jpg">
+                    <div class="book-info">
+                        <p class="book-name">Star Wars: o Arquivo Rebelde</p>
+                        <p class="book-author">Daniel Wallac</p>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-status">
+                        <div class="status">
+                            <div class="green"></div>
+                            <p>Disponível</p>
+                        </div>
+                    </div>
+                    <img src="./images/books/harry-potter-camara.jpg">
+                    <div class="book-info">
+                        <p class="book-name">Harry Potter e a Camara Secreta</p>
+                        <p class="book-author">J.K. Rowling</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+
+                
+            </div>
+
+        </section>
+        <section id="suggest">
+            <h1>Sugestões...</h1>
+            <div id="suggest-book">
+                <div class="book-card">
+                    <div class="book-status">
+                        <div class="status">
+                            <div class="green"></div>
+                            <p>Disponível</p>
+                        </div>
+                    </div>
+                    <img src="./images/books/harry-potter-pedra.jpg">
+                    <div class="book-info">
+                        <p class="book-name">Harry Potter e a Pedra Filosofal</p>
+                        <p class="book-author">J.K. Rowling</p>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-status">
+                        <div class="status">
+                            <div class="red"></div>
+                            <p>Indisponível</p>
+                        </div>
+                    </div>
+                    <img src="./images/books/hobbit.jpg">
+                    <div class="book-info">
+                        <p class="book-name">O Hobbit</p>
+                        <p class="book-author">J.R.R. Tolkien</p>
+                    </div>
+                </div>
+                
+                <div class="book-card">
+                    <div class="book-status">
+                        <div class="status">
+                            <div class="green"></div>
+                            <p>Disponível</p>
+                        </div>
+                    </div>
+                    <img src="./images/books/starwars.jpg">
+                    <div class="book-info">
+                        <p class="book-name">Star Wars: o Arquivo Rebelde</p>
+                        <p class="book-author">Daniel Wallac</p>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-status">
+                        <div class="status">
+                            <div class="green"></div>
+                            <p>Disponível</p>
+                        </div>
+                    </div>
+                    <img src="./images/books/harry-potter-camara.jpg">
+                    <div class="book-info">
+                        <p class="book-name">Harry Potter e a Camara Secreta</p>
+                        <p class="book-author">J.K. Rowling</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
+    <script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
